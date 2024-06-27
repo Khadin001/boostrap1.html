@@ -1,0 +1,197 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Redressed&display=swap');
+
+.nav li{
+    display: flex;
+}
+section{
+    background: url(../bootstrap1/images/Miami.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.container-fluid a{
+    font-size: 25px;
+    color: #190546;
+}
+.menu .nav li a{
+    font-size: 15px;
+    color: #190546;
+   
+}
+.menu .nav li a:hover{
+    text-decoration:underline;
+    color: #190546;
+
+}
+span{
+    color: burlywood;
+}
+section h1{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: lowercase;
+
+}
+section h2{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+section p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 2px;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    width: 20%;
+    height: 40px;
+    margin-top: 40px;
+    background:#222 ;
+    color:burlywood;
+    font-weight: bold;
+}
+.container{
+    height: 100vh;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    margin-top: 100px;
+}.card{
+    width: 325px ;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.content{
+    padding: 16px;
+}
+.content h6{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.content p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.content a{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;}
+  
+  input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+  label{margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;}
+  
+  input[type=submit] {
+    background-color: #1255a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #1872D9;
+  }
+  
+  .container {
+    /* Ajouter box-sizing */
+    box-sizing : border-box;
+    border-radius:5px;
+    background-color:#f2f2f2;
+    padding:20px;
+    width: 100%;
+    /* redéfinition 400 + 2*20 */
+    max-width: 440px;
+    margin:0 auto;
+  }
+  h6 {
+    color: #ffc800;
+    width: 100%;
+  }
+  .container{
+    height: 100vh;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    background: #666;
+  }
+  footer{
+    height: 25vh;
+    background: #222;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 8px ;
+    margin-bottom: 20px;
+
+  }
+  footer .pied{
+    margin-left: 20px;
+  }
+ .pied a i{
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: #f0f0f0;
+  }
+  .pied a i:hover{
+    background: blue;
+    color: #666;
+    cursor: pointer;
+  }
+  h4{
+    color:#f0f0f0; 
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  h4:hover{
+    color: blue;
+    cursor: pointer;
+
+  }
+  
